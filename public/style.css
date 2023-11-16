@@ -75,7 +75,7 @@ body{
 @media screen and (max-width: 992px) {
     .container {
         flex-direction: column;
-        width:80%;
+        width:80vw;
     }
 
     .form {
