@@ -1,0 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@600&display=swap');
+
+body{
+    background-color: rgb(26, 26, 25);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    box-sizing: border-box;
+    padding: 25px;
+    border-radius: 25px;
+    font-family: 'Playpen Sans', cursive;
+    box-shadow: 0 3px 15px rgba(196, 195, 195, 0.99);
+    outline: 1px solid #2d2d2d;
+    outline-offset: 3px;
+    background-color: #000;
+    color: #fff;
+
+}
+.header h1{
+    background-color: salmon;
+    border-radius: 25px;
+    display: inline-block;
+    padding: 5px 15px 5px 15px;
+    justify-content: center;
+    display: flex;
+}
+.form input{
+    outline: none;
+    border: 2px solid #737171;
+    padding: 10px;
+    padding-left: 20px;
+    border-radius: 15px;
+    font-size: 25px;
+    font-family: 'Playpen Sans', cursive;
+    transition: 0.4s ease;
+    box-shadow: 0 3px 15px rgba(98, 98, 98, 0.99);
+    outline: 1px solid #2d2d2d;
+    outline-offset: 3px;
+}
+.form input:active{
+    scale: 1.2;
+}
+.form{
+    display: flex;
+    gap: 15px;
+}
+.form button{
+    border: none;
+    outline: none;
+    background: transparent;
+    background-color: red;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #000;
+    padding: 15px;
+    font-family: 'Playpen Sans', cursive;
+    transition: 0.4s ease;
+    box-shadow: 0 3px 15px rgba(80, 79, 79, 0.99);
+    outline: 1px solid #2d2d2d;
+    outline-offset: 3px;
+    color: #fff;
+}
+.form button:active{
+    scale: 1.2;
+}
+
+.container ul{
+    font-size: 20px;
+
+}
+@media screen and (max-width: 992px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .form {
+        flex-direction: column;
+    }
+}
+
+.delete{
+    outline: none;
+    border: none;
+    color: #000;
+    font-size: x-large;
+}
